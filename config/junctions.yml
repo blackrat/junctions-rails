@@ -1,0 +1,7 @@
+---
+locations:
+  core:  'core'
+  locales:  'config/junctions/locales'
+  environments: 'config/junctions/environments'
+  initializisers: 'config/junctions/initializers'
+  migrations: 'db/migrate'
