@@ -16,9 +16,9 @@ Gem::Specification.new do |s|
 
   s.files = Dir['{app,config,db,lib}/**/*', 'MIT-LICENSE', 'Rakefile', 'README.md']
 
-  s.add_dependency 'rails', '~> 5.2'
-  s.add_dependency 'junctions', '~> 0'
-  s.add_development_dependency 'simple_cov', '~>0'
+  s.add_dependency 'rails', '~> 5.0'
+  s.add_dependency 'junctions', '~> 0.0.5'
 
-  s.add_development_dependency 'sqlite3', '~> 0'
+  s.add_development_dependency 'simplecov', '~>0'
+  s.add_development_dependency 'sqlite3', '~> 1.3'
 end
